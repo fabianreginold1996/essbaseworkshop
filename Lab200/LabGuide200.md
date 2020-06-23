@@ -4,11 +4,11 @@
 
 ### Additional Resources
 
-## Part 1 - Provisioning an ADW Instance
+## Part 1: Provisioning an ADW Instance
 
-## Part 2 - Uploading data file to ADW
+## Part 2: Uploading data file to ADW
 
-## Part 3 - Create a Connection and Datasource for Oracle Autonomous Data Warehouse
+## Part 3: Create a Connection and Datasource for Oracle Autonomous Data Warehouse
 
 ### Define a connection and Datasource between Essbase and Autonomous Data Warehouse.
 
@@ -32,7 +32,7 @@ Obtain a wallet file by selecting Download Client Credentials (Wallet) from your
 16.	Review the preview panel. You should see the results of the SQL query fetching columns of data from Autonomous Data Warehouse.
 17.	If the preview looks correct, click Create to finish creating the Datasource.
 
-## Part 4 - Build Dimensions Using SQL with ADW
+## Part 4: Build Dimensions Using SQL with ADW
 
 1.	We will delete some members from Sample Basic, and then create a load rule to rebuild the Market dimension from the ADW table.
 2.	In the Essbase web interface, on the Applications page, expand the Sample application, and select the cube, Basic.
@@ -78,7 +78,7 @@ Next, you will use this rule file to load the members back into the Market dimen
 The dimension build begins. Click the Refresh symbol to watch the status, and when it completes, click Job Details from the Actions menu.
 37.	Inspect the outline to verify that your dimensions were built (verify that Connecticut, New Hampshire, and Massachusetts exist as children under East).
 
-## Part 5 - Load ADW Data to Essbase Using SQL
+## Part 5: Load ADW Data to Essbase Using SQL
 
 This task flow demonstrates how to clear data from a cube, create data load rules, load data (using SQL) from an RDBMS server, and verify in Smart View that the data was loaded.
 Before beginning this task flow, complete prerequisites and obtain a valid connection string. See Build Dimensions and Load Data Using SQL for details.
